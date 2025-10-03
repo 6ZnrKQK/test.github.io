@@ -109,4 +109,25 @@ section .main-body{
     }
 }
 
+/* Experience 图片样式 */
+.experience-image-container {
+    margin: 2rem 0;
+}
+
+.experience-img {
+    border: 3px solid #f8f9fa;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* 响应式图片 */
+@media (max-width: 768px) {
+    .experience-img {
+        max-width: 95% !important;
+    }
+}
 
