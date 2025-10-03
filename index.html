@@ -152,14 +152,42 @@
     <!-- Awards -->
 
     <!-- Experience -->
-    <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience">
-        <div class="container px-5">
-            <header>
-                <h2 id="experience-subtitle"><i class="bi bi-briefcase-fill"></i> EXPERIENCE </h2>
-            </header>
-            <div class="main-body" id="experience-md"></div>
+<section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience">
+    <div class="container px-5">
+        <header>
+            <h2 id="experience-subtitle"><i class="bi bi-briefcase-fill"></i> EXPERIENCE </h2>
+        </header>
+        
+        <!-- 图片容器 - 居中显示 -->
+        <div class="experience-image-container text-center my-4">
+            <img src="static/assets/img/experience-demo.jpg" 
+                 alt="Experience Image" 
+                 class="experience-img img-fluid rounded shadow"
+                 style="max-width: 80%; height: auto;">
         </div>
-    </section>
+        
+        <div class="main-body" id="experience-md"></div>
+        
+        <!-- 或者如果你想要多个图片位置，可以使用这个网格布局 -->
+        <div class="experience-gallery row justify-content-center mt-4 d-none">
+            <div class="col-md-4 mb-3 text-center">
+                <img src="static/assets/img/exp1.jpg" 
+                     alt="Experience 1" 
+                     class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-4 mb-3 text-center">
+                <img src="static/assets/img/exp2.jpg" 
+                     alt="Experience 2" 
+                     class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-4 mb-3 text-center">
+                <img src="static/assets/img/exp3.jpg" 
+                     alt="Experience 3" 
+                     class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+</section>
     <!-- Experience -->
 
     <!-- Publications -->
